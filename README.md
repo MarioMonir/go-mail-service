@@ -4,23 +4,23 @@
 
 ---
 
-##### Technologies :
+### 1. Technologies :
 
 - just golang ( GO )
 
-##### Installation :
+### 2. Installation :
 
 - no need for any installation if you already have golang
 
-##### Run :
+### 3. Run :
 
 Api server will run on port 8080
 
     go run main.go
 
-##### API Documentation
+### 4. API Documentation
 
-on same url "/" : http://localhost:8080/
+just 2 edpoints on  the same url "/" : http://localhost:8080/
 
 ---
 
@@ -40,7 +40,7 @@ on same url "/" : http://localhost:8080/
   - req body:
     ```
     {
-        "to":"<email@exampl.com>",
+        "to":"<email@example.com>",
         "subject":"email_Subject",
         "body":"email_body"
     }
